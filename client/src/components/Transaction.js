@@ -28,7 +28,7 @@ export const Transaction = ({ transaction, index }) => {
         {moneyFormatter(transaction.amount)}
       </span>
       <button
-        onClick={() => deleteTransaction(transaction.id)}
+        onClick={() => deleteTransaction(transaction._id)}
         className="delete-btn"
       >
         X
